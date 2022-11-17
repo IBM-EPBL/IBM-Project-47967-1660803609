@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="header">
+    <p id="name">Anthony Jeffery William.C</p>
+    <p>jefferywilliam20@gmail.com</p>
+        <p id="contact">+91 9952884503</p>
+</div>
+<div class="resume-main">
+	<div class="left-box">
+		<br><br>
+		<div class="profile">
+			<img src="/Users/aaryinfantrewin/Downloads/jeffery.jpeg"
+			width="200" height="121">
+		</div>
+		<div class="content-box">
+		<h2>Profile Info</h2>
+		<hr class="hr1">
+		<p class="p1">To work for an organization which provides me the opporunity to improve my skills and knowledge to growth along the organization objective. </p>
+
+		<h3>Language:</h3>
+		<p class="p2">English</p>
+		<div id="progress"></div>
+		<p class="p2">Tamil</p>
+		<div id="progress1"></div>
+		
+		<br><br>
+		<h2>My Skills</h2>
+		<hr class="hr1">
+		<br>
+		<div class="col-div-6"><p class="p2">HTML</p></div>
+		<div class="col-div-6">
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle1"></i>
+			<i class="fa fa-circle circle1"></i>
+		</div>
+			<div class="clearfix"></div>
+		<div class="col-div-6"><p class="p2">CSS</p></div>
+		<div class="col-div-6">
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle1"></i>
+		</div>
+		
+			<div class="clearfix"></div>
+		<div class="col-div-6"><p class="p2">JAVASCRIPT</p></div>
+		<div class="col-div-6">
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle1"></i>
+			<i class="fa fa-circle circle1"></i>
+			<i class="fa fa-circle circle1"></i>
+		</div>
+
+			<div class="clearfix"></div>
+			<br>
+			<h2>interests</h2>
+			<hr class="hr1">
+			<br>
+			<div class="col-div-3 col3">
+				<i class="fa fa-futbol-o in"></i>
+				<span class="inp">Sports</span>
+			</div>
+			<div class="col-div-3 col3">
+				<i class="fa fa-futbol-o in"></i>
+				<span class="inp">Drive</span>
+			</div>
+			<div class="col-div-3 col3">
+				<i class="fa fa-futbol-o in"></i>
+				<span class="inp">Reading Books</span>
+			</div>
+			<div class="col-div-3 col3">
+				<i class="fa fa-futbol-o in"></i>
+				<span class="inp">Dancing</span>
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+</html>
