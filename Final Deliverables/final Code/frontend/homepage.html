@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+/>
+
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body onload="retrieve()">
+    <!-- nav -->
+    <nav class="navigation ">
+        <div class="nav-brand">expenseTracker</div>
+        
+    </nav>
+        
+    <div class="wrapper fadeInDown">       
+        <div id="formContent">
+            <div class="fadeIn first">
+                <div class="spacingimg"></div>
+                <img src="money_jar.png" id="icon" class="hero-image" />
+                <div class="spacingimg"></div>
+              </div>
+          
+            <!--Add Expense Block  -->
+            <form>
+                
+                <div class="heading" > Total Expense :  </div>
+                <div id="total" class="heading"> 0</div>
+
+                <!-- Input Amount -->
+                <input type="text" id="amount" class="fadeIn second" name="login" placeholder="amount">
+                <div class="errorMessage" id="errorAmount" >  </div>
+
+                <div class="spacing"></div> 
+            
+                <!-- Input Description -->
+                <input type="text" id="description" class="fadeIn third" name="login" placeholder="description">
+                <div class="errorMessage" id="errDesc" >  </div>
+            
+                <div class="spacing"></div> 
+                
+                <!-- Add Expense Button -->
+                <input type="button" id="addExpense" class= "fadeIn fourth" value="Add Expense">    
+        </form>
+      
+        <!-- Here expense data will be displayed -->
+        <div id="expenseData" style="padding:1rem">
+
+          </div>
+        </div>
+      </div>
+
+      <script src="/scripts/expensetracker.js" type="text/javascript"></script>
+    
+</body>
+</html>
